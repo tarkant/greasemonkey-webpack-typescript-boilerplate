@@ -21,7 +21,7 @@ const HEADER = `// ==UserScript==
 // @description  ${package.description}
 // @licence      ${package.license}
 // @author       ${package.author}
-// @match        http://localhost:3000/
+// @match        https://github.com/
 // @grant        none
 // @updateURL    ${updateUrl}
 // @downloadURL  ${downloadUrl}
