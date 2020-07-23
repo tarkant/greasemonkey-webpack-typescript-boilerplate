@@ -5,7 +5,7 @@
 // @description  A Greasemonkey/Tampermonkey Webpack + TypeScript boilerplate
 // @licence      GPL-3.0-or-later
 // @author       Tarek Jellali
-// @match        http://localhost:3000/
+// @match        https://github.com/
 // @grant        none
 // @updateURL    https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate/raw/master/dist/greasemonkey-webpack-typescript-boilerplate.user.js
 // @downloadURL  https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate/raw/master/dist/greasemonkey-webpack-typescript-boilerplate.user.js
