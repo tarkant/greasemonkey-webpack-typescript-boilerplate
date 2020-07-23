@@ -18,8 +18,33 @@ npm install
 Finally and very importantly, go to the file `post-build.js` and replace the @match pattern with your destination website :
 
 ```js
-// @match        http://localhost:3000/
+// @match        http://example.com/
 ```
+
+**Note:** You can still install the current boilerplate userscript [by clicking here](https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate/raw/master/dist/greasemonkey-webpack-typescript-boilerplate.user.js) then headint to [http://example.com/](http://example.com/), you'll see a div with injected html and CSS 😊 .
+
+## ⚙ How does the post-build.js work?
+
+This script file will be ran by NodeJS to prepend the header needed for Greasemonkey to detect that it is a userscript. I tried to make it as automatic as possible so it will read the package.json information and add them to the userscript.
+
+Mainly the script will take these information from the package.json :
+- name
+- version
+- description
+- license
+- author
+
+**Important note:** To gather the Github repo url, the script replaces some strings in this funky line of code :
+```js
+const url = package.repository.url.replace('git+', '').replace('.git', '');
+```
+If by some change something goes wrong, you know where to look.
+
+**Important note 2:** The script also adds the update and download url by taking the precedent url and adding some static text using this funky line :
+```js
+const updateUrl = package.repository.url.replace('git+', '').replace('.git', '') + '/raw/master/dist/' + distUserScript;
+```
+Again, if you don't understand why something is going wrong, this might be the culprit.
 
 ## ⚒ How to build my userscript ?
 

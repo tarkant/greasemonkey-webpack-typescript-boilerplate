@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         greasemonkey-webpack-typescript-boilerplate
 // @namespace    https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate
-// @version      1.0.0
+// @version      1.0.1
 // @description  A Greasemonkey/Tampermonkey Webpack + TypeScript boilerplate
 // @licence      GPL-3.0-or-later
 // @author       Tarek Jellali
-// @match        https://github.com/
+// @match        http://example.com/
 // @grant        none
 // @updateURL    https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate/raw/master/dist/greasemonkey-webpack-typescript-boilerplate.user.js
 // @downloadURL  https://github.com/tarkant/greasemonkey-webpack-typescript-boilerplate/raw/master/dist/greasemonkey-webpack-typescript-boilerplate.user.js
