@@ -62,3 +62,8 @@ This will the userscript in the `dist` folder that you can install on Greasemonk
 If you have an issue with the boilerplate or want to contribute, please let me know I'll be happy to interact with you.
 
 Happy hacking!
+
+## ⏲ Changelog
+
+- v1.1.0: Bumped packages version and fixed webpack config.
+- v1.0.0: Base boilerplate

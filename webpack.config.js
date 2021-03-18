@@ -14,9 +14,6 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: 'html-loader',
-        options: {
-          attributes: false,
-        },
       },
       {
         test: /\.s[ac]ss$/i,
@@ -39,7 +36,7 @@ module.exports = {
     }
   }],
   resolve: {
-    extensions: ['.ts'],
+    extensions: ['.ts', '.js'],
   },
   output: {
     filename: package.name + '.user.js',
