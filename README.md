@@ -65,5 +65,8 @@ Happy hacking!
 
 ## ⏲ Changelog
 
-- v1.1.0: Bumped packages version and fixed webpack config.
+- v1.0.4: Improve HTML importing
+- v1.0.3: Fix example.com `@match` pattern
+- v1.0.2: Bump packages version
+- v1.0.1: Minor fixes & made userscript work for example.com
 - v1.0.0: Base boilerplate

@@ -1,10 +1,10 @@
 import "./scss/style.scss";
-const APP_HTML = require("./html/main-content.html");
+import APP_HTML from "./html/main-content.html";
 
 export class App {
   constructor() {
     this.injectHTML(APP_HTML);
-    console.debug("If you see this message, it means that the script has been injected :)");
+    console.log("If you see this message, it means that the script has been injected :)");
   }
   private injectHTML(htmlContent: string) {
     document.querySelector("body").insertAdjacentHTML("beforeend", htmlContent);
