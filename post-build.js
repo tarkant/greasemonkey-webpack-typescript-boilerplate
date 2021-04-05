@@ -21,7 +21,7 @@ const HEADER = `// ==UserScript==
 // @description  ${package.description}
 // @licence      ${package.license}
 // @author       ${package.author}
-// @match        http://example.com/
+// @match        http*://example.com/
 // @grant        none
 // @updateURL    ${updateUrl}
 // @downloadURL  ${downloadUrl}
